@@ -49,7 +49,7 @@ class User {
         this.role = role;
     }
 }
-
+//admin class
 class Admin {
     private static List<User> users = new ArrayList<>();
 
@@ -103,7 +103,7 @@ class Admin {
                 break;
             }
         }
-
+        //admin choices to create/modify/delete/change own with a choice option
         if (isAdmin) {
             System.out.println("Admin Menu:");
             System.out.println("1. Add User");
@@ -113,7 +113,7 @@ class Admin {
             System.out.print("Choose an option: ");
             int option = scanner.nextInt();
             scanner.nextLine(); // Consume newline character
-
+            //adding new admin
             switch (option) {
                 case 1:
                     System.out.print("Enter new username: ");
