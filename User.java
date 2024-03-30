@@ -5,7 +5,9 @@ package ca2_pg;
 /*
 IntegratedCA2
 */
-
+//import arraylist
+//import list
+//import scanner
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
