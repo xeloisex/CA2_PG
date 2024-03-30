@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
-
+//student class
 class Student {
     private String name;
     private int studentNumber;
@@ -58,7 +58,7 @@ class Student {
         return completedModules;
     }
 }
-
+//program class
 class Program {
     private String name;
 
@@ -70,7 +70,7 @@ class Program {
         return name;
     }
 }
-
+//module class
 class Module {
     private String name;
 
