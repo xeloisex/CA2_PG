@@ -98,10 +98,12 @@ public class StudentReport {
         student.enrollModule(module2);
         student.enrollModule(module3);
         student.enrollModule(module4);
-
-        // Complete some modules with grades
+    
+        // Complete modules with grades
         student.completeModule(module1, "A");
         student.completeModule(module2, "B");
+        student.completeModule(module3, "B");
+        student.completeModule(module4, "C");
         
         // Print student report
         System.out.println("Student Report:");
