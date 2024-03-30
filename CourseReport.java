@@ -47,7 +47,7 @@ class Module {
         return room;
     }
 }
-
+//program class
 class Program {
     private final String name;
 
@@ -59,7 +59,7 @@ class Program {
         return name;
     }
 }
-
+//lecturer class
 class Lecturer {
     private final String name;
 
@@ -71,7 +71,7 @@ class Lecturer {
         return name;
     }
 }
-
+//room class
 class Room {
     private final String name;
 
@@ -83,7 +83,7 @@ class Room {
         return name;
     }
 }
-
+//public class course report
 public class CourseReport {
     public static void main(String[] args) {
         // Creating modules
