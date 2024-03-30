@@ -8,7 +8,7 @@ IntegratedCA2
  */
 import java.util.ArrayList;
 import java.util.List;
-
+//lecturer class
 class Lecturer {
     private String name;
     private String role;
@@ -37,7 +37,7 @@ class Lecturer {
         return teachingModules;
     }
 }
-
+//module class
 class Module {
     private String name;
     private int numberOfStudents;
